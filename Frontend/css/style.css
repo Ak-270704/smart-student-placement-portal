@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: #f4f6f8;
+}
+
+nav {
+  background: #1e293b;
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+nav h2 {
+  margin-right: auto;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  color: #1e293b;
+}
+
+.hero p {
+  margin: 20px;
+  font-size: 18px;
+}
+
+.btn {
+  background: #2563eb;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.container {
+  width: 400px;
+  margin: 60px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.card {
+  background: white;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #ccc;
+}
+
+.dashboard {
+  width: 80%;
+  margin: 30px auto;
+}

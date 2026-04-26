@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Company Dashboard</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<nav>
+  <h2>Company Dashboard</h2>
+  <a href="../index.html" onclick="logout()">Logout</a>
+</nav>
+
+<div class="container">
+  <h2>Post Job</h2>
+
+  <input type="text" id="title" placeholder="Job Title">
+  <textarea id="description" placeholder="Job Description"></textarea>
+  <input type="text" id="skills" placeholder="Required Skills comma separated">
+  <input type="number" id="salary" placeholder="Salary">
+
+  <button onclick="postJob()">Post Job</button>
+</div>
+
+<script src="../js/company.js"></script>
+</body>
+</html>
