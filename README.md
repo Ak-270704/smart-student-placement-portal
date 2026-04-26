@@ -70,7 +70,7 @@ smart-student-placement-portal/
 ## Installation Steps
 
 ### 1. Clone Repository
-git clone https://github.com/yourusername/smart-student-placement-portal.git
+git clone https://github.com/Ak-270704/smart-student-placement-portal.git
 
 ### 2. Go to Backend Folder
 cd backend
