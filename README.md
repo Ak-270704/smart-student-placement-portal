@@ -1,5 +1,3 @@
-# smart-student-placement-portal
-A full-stack Smart Student Placement Portal built with MongoDB, Express.js, Node.js, HTML, CSS, and JavaScript where students can apply for jobs, companies can post vacancies, and placement activities are managed efficiently.
 # Smart Student Placement Portal
 
 A full-stack web application built using MongoDB, Express.js, Node.js, HTML, CSS, and JavaScript. This project helps students apply for jobs, companies post vacancies, and manages placement activities efficiently.
@@ -80,7 +78,7 @@ cd backend
 ### 3. Install Dependencies
 npm install
 
-### 4. 4. Create .env File
+### 4. Create .env File
 PORT=5000
 MONGO_URI=mongodb://127.0.0.1:27017/placementPortal
 JWT_SECRET=placement_secret_key
